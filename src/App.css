@@ -1,0 +1,38 @@
+.pages {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .pages .page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    padding: 15%;
+    box-sizing: border-box;
+  }
+  .pages .page .title {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  .pages .page .p {
+    font-size: 30px;
+  }
+  .house{
+    font-size: 20px;
+    position: fixed;
+    left: 50px;
+  top: 50px;
+  }
+  .vr_text{
+    color: white;
+  }
+  .vr_kf{
+    background-color: pink;
+  }
